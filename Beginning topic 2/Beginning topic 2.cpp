@@ -25,5 +25,5 @@ class LinkedList
 
 int main()
 {
-
+	//
 }
