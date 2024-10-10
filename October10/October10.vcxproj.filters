@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Our own static and dynamic array classes.cpp">
+    <ClCompile Include="October10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
