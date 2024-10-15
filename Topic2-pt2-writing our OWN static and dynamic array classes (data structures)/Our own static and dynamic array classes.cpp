@@ -19,7 +19,7 @@ using std::string;
 
 template<typename T> //T is a standin/placeholder for whatever data type, T, we want!
 /*intended to behave similarly to std::array*/
-class CustomStaticArray
+class CustomStaticArray 
 {
     //member variables 
 //public: 
@@ -36,8 +36,9 @@ public:
     {
         for (int i = 0; i < totalNumberOfElements; i++)
         {
-            //theData[i] = -999;
-            theData[i] = T(); //will call the default constructor of Car 
+            int a{};
+           /* theData[i] = -999;*/ //silly initialization assuming integer data type (no templates) 
+            theData[i] = T{}; //will call the default constructor of Car 
         }
     }
 
@@ -118,12 +119,22 @@ struct Car
 
 std::ostream& operator<<(std::ostream& os, const Car& carObj)
 {
-    os << carObj.name << "with mileage = " << carObj.miles;
+    os << carObj.name << " with mileage = " << carObj.miles;
     return os;
 }
 
 int main()
 {
+    //Car defaultCar2(); 
+    Car defaultCar{};
+    //Car defaultCar{}; 
+    cout << "defaultCar: " << defaultCar << "\n";
+
+    //int defaultInt; 
+    int defaultInt{}; 
+    cout << "defaultInt: " << defaultInt << "\n";
+
+    system("pause"); 
    // int a = 32; 
    // int copyOfA = a; 
 
@@ -158,7 +169,7 @@ int main()
    // //cout << someNames.getElementAtGivenIndex(desiredIndex) << "\n";
 
     CustomStaticArray<Car> firstRowOfCars{ Car{"Ford", 123'001} };
-    CustomStaticArray<Car> secondRowOfCars{ Car{"NOT Ford", 456'001} };
+    CustomStaticArray<Car> secondRowOfCars{ Car{"Honda", 99'999} };
 
     //cout << firstRowOfCars[0].miles << "\n";
 
@@ -174,7 +185,10 @@ int main()
     //mySpecialParkingLot.print(); //printing a 2D array of type Car didn't work!
     
     mySpecialParkingLot[0].print(); //how about printing a 1D array (row/column) of Cars?
-    cout << mySpecialParkingLot[1][0].name << "\n"; //print the name of the car in the 2nd row, 1st column
+    cout << "The mileage of the car in the SECOND row and first column is: "
+        << mySpecialParkingLot[1][0].miles << "\n";
+
+    //cout << mySpecialParkingLot[1][0].name << "\n"; //print the name of the car in the 2nd row, 1st column
 
     //parkingLotType mySpecialParkingLot{ RowOfCars };
 

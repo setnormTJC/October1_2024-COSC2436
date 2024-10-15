@@ -9,9 +9,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NaiveNQueens", "NaiveNQueen
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Beginning topic 2", "Beginning topic 2\Beginning topic 2.vcxproj", "{75B966A8-1E83-4195-BFE5-63AD70CF269C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Topic2-pt2-writing our OWN static and dynamic array classes (data structures)", "Topic2-pt2-writing our OWN static and dynamic array classes (data structures)\Topic2-pt2-writing our OWN static and dynamic array classes (data structures).vcxproj", "{0C0DA34E-89EA-4FA2-B588-53B1245FCC2D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Our own static and dynamic array classes", "Topic2-pt2-writing our OWN static and dynamic array classes (data structures)\Topic2-pt2-writing our OWN static and dynamic array classes (data structures).vcxproj", "{0C0DA34E-89EA-4FA2-B588-53B1245FCC2D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "October10", "October10\October10.vcxproj", "{508D5B93-47DB-486C-9E05-5938BA99078B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "October15-a reminder of how new and delete work", "October15-Demoing my implementation of dynamic array\October15-Demoing my implementation of dynamic array.vcxproj", "{D6276EC7-2ACA-47A3-89E6-A162802D8D15}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "October15-My implementation of dynamic array - demo", "October15-My implementation of dynamic array\October15-My implementation of dynamic array.vcxproj", "{FDD44AE9-3EF2-46CC-8FD9-24D9A84638EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,22 @@ Global
 		{508D5B93-47DB-486C-9E05-5938BA99078B}.Release|x64.Build.0 = Release|x64
 		{508D5B93-47DB-486C-9E05-5938BA99078B}.Release|x86.ActiveCfg = Release|Win32
 		{508D5B93-47DB-486C-9E05-5938BA99078B}.Release|x86.Build.0 = Release|Win32
+		{D6276EC7-2ACA-47A3-89E6-A162802D8D15}.Debug|x64.ActiveCfg = Debug|x64
+		{D6276EC7-2ACA-47A3-89E6-A162802D8D15}.Debug|x64.Build.0 = Debug|x64
+		{D6276EC7-2ACA-47A3-89E6-A162802D8D15}.Debug|x86.ActiveCfg = Debug|Win32
+		{D6276EC7-2ACA-47A3-89E6-A162802D8D15}.Debug|x86.Build.0 = Debug|Win32
+		{D6276EC7-2ACA-47A3-89E6-A162802D8D15}.Release|x64.ActiveCfg = Release|x64
+		{D6276EC7-2ACA-47A3-89E6-A162802D8D15}.Release|x64.Build.0 = Release|x64
+		{D6276EC7-2ACA-47A3-89E6-A162802D8D15}.Release|x86.ActiveCfg = Release|Win32
+		{D6276EC7-2ACA-47A3-89E6-A162802D8D15}.Release|x86.Build.0 = Release|Win32
+		{FDD44AE9-3EF2-46CC-8FD9-24D9A84638EE}.Debug|x64.ActiveCfg = Debug|x64
+		{FDD44AE9-3EF2-46CC-8FD9-24D9A84638EE}.Debug|x64.Build.0 = Debug|x64
+		{FDD44AE9-3EF2-46CC-8FD9-24D9A84638EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{FDD44AE9-3EF2-46CC-8FD9-24D9A84638EE}.Debug|x86.Build.0 = Debug|Win32
+		{FDD44AE9-3EF2-46CC-8FD9-24D9A84638EE}.Release|x64.ActiveCfg = Release|x64
+		{FDD44AE9-3EF2-46CC-8FD9-24D9A84638EE}.Release|x64.Build.0 = Release|x64
+		{FDD44AE9-3EF2-46CC-8FD9-24D9A84638EE}.Release|x86.ActiveCfg = Release|Win32
+		{FDD44AE9-3EF2-46CC-8FD9-24D9A84638EE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
